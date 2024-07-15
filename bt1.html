@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách</title>
+</head>
+<body>
+    <ul id="list"></ul>
+    
+
+    <script>
+        var a = ["List item number 1", "List item number 2", "List item number 3"]
+        var b = document.getElementById("list");
+        var get = "";
+        for (var i = 0; i < a.length; i ++){
+            get += `<li>${a[i]}</li>`
+        }
+        
+        document.getElementById("list").innerHTML=get;
+    </script>
+</body>
+</html>

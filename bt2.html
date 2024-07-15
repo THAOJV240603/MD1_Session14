@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xin chào</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .b{
+            border: 1px solid grey;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: skyblue;
+            color: white;
+            
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="change()" class="b">Press to say hi</button>
+    </div>
+    
+    <script>
+        function change(){
+            alert("Xin chào");
+        }
+    </script>
+</body>
+</html>
